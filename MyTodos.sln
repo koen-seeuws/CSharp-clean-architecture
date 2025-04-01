@@ -11,22 +11,23 @@ Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "3. Infrastructure", "3. Inf
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "4. Presentation", "4. Presentation", "{CBB064EF-96C4-4AF7-82D5-835C805C2164}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyTodos.Core.Enums", "1. Core\MyTodos.Core.Enums\MyTodos.Core.Enums.csproj", "{EBBC2423-0A58-4409-A54B-9DFB00F913BB}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyTodos.Core.Enums", "MyTodos.Core.Enums\MyTodos.Core.Enums.csproj", "{EBBC2423-0A58-4409-A54B-9DFB00F913BB}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyTodos.Core.Domain", "1. Core\MyTodos.Core.Domain\MyTodos.Core.Domain.csproj", "{6D41C01A-384C-4676-BD06-79E468A00DF8}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyTodos.Core.Domain", "MyTodos.Core.Domain\MyTodos.Core.Domain.csproj", "{6D41C01A-384C-4676-BD06-79E468A00DF8}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyTodos.Application.Contracts", "2. Application\MyTodos.Application.Contracts\MyTodos.Application.Contracts.csproj", "{91962445-7285-4067-80DD-6B26433E418D}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyTodos.Application.Contracts", "MyTodos.Application.Contracts\MyTodos.Application.Contracts.csproj", "{91962445-7285-4067-80DD-6B26433E418D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyTodos.Application.Business", "2. Application\MyTodos.Application.Business\MyTodos.Application.Business.csproj", "{C3DE1023-8B26-47BB-878B-64B6EA8C1792}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyTodos.Infrastructure.DataAccess", "3. Infrastructure\MyTodos.Infrastructure.DataAccess\MyTodos.Infrastructure.DataAccess.csproj", "{EBBF68EE-C519-4003-A90B-4CF8B1965C9B}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyTodos.Presentation.API", "4. Presentation\MyTodos.Presentation.API\MyTodos.Presentation.API.csproj", "{94BE3441-F7CE-444A-8144-B78285315894}"
-EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyTodos.Infrastructure.RandomNumbersAPI", "MyTodos.Infrastructure.RandomNumbersAPI\MyTodos.Infrastructure.RandomNumbersAPI.csproj", "{225741FE-A7D9-4231-9E0C-7D4CCEB394A0}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyTodos.Application.Business", "MyTodos.Application.Business\MyTodos.Application.Business.csproj", "{C3DE1023-8B26-47BB-878B-64B6EA8C1792}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyTodos.Infrastructure", "MyTodos.Infrastructure\MyTodos.Infrastructure.csproj", "{9B0056B8-D208-457E-A5DF-719AA587C898}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyTodos.Infrastructure.DataAccess", "MyTodos.Infrastructure.DataAccess\MyTodos.Infrastructure.DataAccess.csproj", "{EBBF68EE-C519-4003-A90B-4CF8B1965C9B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyTodos.Infrastructure.RandomNumbersAPI", "MyTodos.Infrastructure.RandomNumbersAPI\MyTodos.Infrastructure.RandomNumbersAPI.csproj", "{225741FE-A7D9-4231-9E0C-7D4CCEB394A0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyTodos.Presentation.API", "MyTodos.Presentation.API\MyTodos.Presentation.API.csproj", "{94BE3441-F7CE-444A-8144-B78285315894}"
+EndProject
+
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU

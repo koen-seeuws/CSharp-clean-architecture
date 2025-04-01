@@ -15,10 +15,9 @@
     </ItemGroup>
 
     <ItemGroup>
-        <ProjectReference Include="..\..\2. Application\MyTodos.Application.Business\MyTodos.Application.Business.csproj" />
-        <ProjectReference Include="..\..\2. Application\MyTodos.Application.Contracts\MyTodos.Application.Contracts.csproj" />
-        <ProjectReference Include="..\..\3. Infrastructure\MyTodos.Infrastructure.DataAccess\MyTodos.Infrastructure.DataAccess.csproj" />
-        <ProjectReference Include="..\..\MyTodos.Infrastructure.RandomNumbersAPI\MyTodos.Infrastructure.RandomNumbersAPI.csproj" />
+        <ProjectReference Include="..\MyTodos.Application.Business\MyTodos.Application.Business.csproj" />
+        <ProjectReference Include="..\MyTodos.Infrastructure.DataAccess\MyTodos.Infrastructure.DataAccess.csproj" />
+        <ProjectReference Include="..\MyTodos.Infrastructure.RandomNumbersAPI\MyTodos.Infrastructure.RandomNumbersAPI.csproj" />
     </ItemGroup>
 
 </Project>
