@@ -1,0 +1,26 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>net8.0</TargetFramework>
+        <ImplicitUsings>enable</ImplicitUsings>
+        <Nullable>enable</Nullable>
+    </PropertyGroup>
+
+    <ItemGroup>
+        <ProjectReference Include="..\MyTodos.Application.Contracts\MyTodos.Application.Contracts.csproj" />
+    </ItemGroup>
+
+    <ItemGroup>
+        <PackageReference Include="AutoMapper" Version="14.0.0" />
+        <PackageReference Include="FluentValidation" Version="11.11.0" />
+        <PackageReference Include="FluentValidation.DependencyInjectionExtensions" Version="11.11.0" />
+        <PackageReference Include="MediatR" Version="12.5.0" />
+        <PackageReference Include="Microsoft.Extensions.DependencyInjection.Abstractions" Version="8.0.2"/>
+        <PackageReference Include="Microsoft.Extensions.Logging.Abstractions" Version="8.0.2" />
+    </ItemGroup>
+
+    <ItemGroup>
+      <Folder Include="Pipeline\" />
+    </ItemGroup>
+
+</Project>
