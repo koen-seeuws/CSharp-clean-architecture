@@ -1,17 +1,24 @@
 using Microsoft.EntityFrameworkCore;
 using MyTodos.Application.Business.Configuration;
 using MyTodos.Infrastructure.DataAccess.Configuration;
+using MyTodos.Infrastructure.RandomNumbersAPI.Configuration;
 
 var builder = WebApplication.CreateBuilder(args);
 
 // Add services to the container.
+
+// Application
 builder.Services.RegisterTodoApplicationServices();
 
+// Infrastructure
 if (builder.Environment.IsDevelopment())
     builder.Services.RegisterSqliteDataAccessServices(builder.Configuration);
 else
     builder.Services.RegisterSqlServerDataAccessServices(builder.Configuration);
 
+builder.Services.RegisterRandomNumbersApiServices(builder.Configuration);
+
+// Presentation
 builder.Services.AddControllers();
 
 // Learn more about configuring Swagger/OpenAPI at https://aka.ms/aspnetcore/swashbuckle

@@ -1,6 +1,6 @@
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
-using MyTodos.Application.Contracts.Interfaces;
+using MyTodos.Application.Contracts.Repositories;
 
 namespace MyTodos.Infrastructure.DataAccess.Configuration;
 

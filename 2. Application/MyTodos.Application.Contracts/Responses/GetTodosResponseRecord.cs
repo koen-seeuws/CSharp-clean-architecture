@@ -1,5 +1,3 @@
-using System.Security.AccessControl;
-
 namespace MyTodos.Application.Contracts.Responses;
 
 public record GetTodosResponseRecord(

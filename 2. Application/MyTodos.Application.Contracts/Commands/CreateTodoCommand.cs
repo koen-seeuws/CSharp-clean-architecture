@@ -1,6 +1,6 @@
 using MediatR;
-using MyTodos.Application.Contracts.Interfaces.Result;
 using MyTodos.Application.Contracts.Responses;
+using MyTodos.Application.Contracts.Result;
 
 namespace MyTodos.Application.Contracts.Commands;
 

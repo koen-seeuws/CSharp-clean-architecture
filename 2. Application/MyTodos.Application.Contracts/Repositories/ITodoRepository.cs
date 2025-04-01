@@ -1,6 +1,6 @@
 using MyTodos.Core.Domain;
 
-namespace MyTodos.Application.Contracts.Interfaces;
+namespace MyTodos.Application.Contracts.Repositories;
 
 public interface ITodoRepository : IRepository<Todo>
 {

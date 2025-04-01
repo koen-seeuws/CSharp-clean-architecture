@@ -1,9 +1,9 @@
 using FluentValidation;
 using MediatR;
 using MyTodos.Application.Contracts.Commands;
-using MyTodos.Application.Contracts.Interfaces;
-using MyTodos.Application.Contracts.Interfaces.Result;
+using MyTodos.Application.Contracts.Repositories;
 using MyTodos.Application.Contracts.Responses;
+using MyTodos.Application.Contracts.Result;
 using MyTodos.Core.Domain;
 
 namespace MyTodos.Application.Business.CommandHandlers;

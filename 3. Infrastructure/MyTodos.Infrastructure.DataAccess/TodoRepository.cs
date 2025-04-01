@@ -1,5 +1,5 @@
 ﻿using Microsoft.EntityFrameworkCore;
-using MyTodos.Application.Contracts.Interfaces;
+using MyTodos.Application.Contracts.Repositories;
 using MyTodos.Core.Domain;
 using MyTodos.Infrastructure.DataAccess.Configuration;
 

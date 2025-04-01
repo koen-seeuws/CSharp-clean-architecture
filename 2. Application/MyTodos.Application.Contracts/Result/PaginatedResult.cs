@@ -1,4 +1,4 @@
-﻿namespace MyTodos.Application.Contracts.Interfaces.Result;
+﻿namespace MyTodos.Application.Contracts.Result;
 
 public class PaginatedResult<T> : Result
 {

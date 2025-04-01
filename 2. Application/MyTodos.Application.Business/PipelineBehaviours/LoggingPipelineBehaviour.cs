@@ -1,7 +1,7 @@
 using System.Diagnostics;
 using MediatR;
 using Microsoft.Extensions.Logging;
-using MyTodos.Application.Contracts.Interfaces.Result;
+using MyTodos.Application.Contracts.Result;
 
 namespace MyTodos.Application.Business.PipelineBehaviours;
 

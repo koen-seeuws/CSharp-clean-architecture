@@ -1,6 +1,6 @@
 using System.Net;
 using Microsoft.AspNetCore.Mvc;
-using MyTodos.Application.Contracts.Interfaces.Result;
+using MyTodos.Application.Contracts.Result;
 using MyTodos.Core.Enums;
 
 namespace MyTodos.Presentation.API.Extensions;

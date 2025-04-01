@@ -1,6 +1,6 @@
 ﻿using System.Linq.Expressions;
 using Microsoft.EntityFrameworkCore;
-using MyTodos.Application.Contracts.Interfaces;
+using MyTodos.Application.Contracts.Repositories;
 
 namespace MyTodos.Infrastructure.DataAccess;
 

@@ -1,6 +1,6 @@
 using MediatR;
 using Microsoft.Extensions.Logging;
-using MyTodos.Application.Contracts.Interfaces.Result;
+using MyTodos.Application.Contracts.Result;
 using MyTodos.Core.Enums;
 
 namespace MyTodos.Application.Business.PipelineBehaviours;

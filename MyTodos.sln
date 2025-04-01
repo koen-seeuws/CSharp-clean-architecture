@@ -23,6 +23,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyTodos.Infrastructure.Data
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyTodos.Presentation.API", "4. Presentation\MyTodos.Presentation.API\MyTodos.Presentation.API.csproj", "{94BE3441-F7CE-444A-8144-B78285315894}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyTodos.Infrastructure.RandomNumbersAPI", "MyTodos.Infrastructure.RandomNumbersAPI\MyTodos.Infrastructure.RandomNumbersAPI.csproj", "{225741FE-A7D9-4231-9E0C-7D4CCEB394A0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MyTodos.Infrastructure", "MyTodos.Infrastructure\MyTodos.Infrastructure.csproj", "{9B0056B8-D208-457E-A5DF-719AA587C898}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -53,6 +57,14 @@ Global
 		{EBBC2423-0A58-4409-A54B-9DFB00F913BB}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{EBBC2423-0A58-4409-A54B-9DFB00F913BB}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{EBBC2423-0A58-4409-A54B-9DFB00F913BB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{225741FE-A7D9-4231-9E0C-7D4CCEB394A0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{225741FE-A7D9-4231-9E0C-7D4CCEB394A0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{225741FE-A7D9-4231-9E0C-7D4CCEB394A0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{225741FE-A7D9-4231-9E0C-7D4CCEB394A0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9B0056B8-D208-457E-A5DF-719AA587C898}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9B0056B8-D208-457E-A5DF-719AA587C898}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9B0056B8-D208-457E-A5DF-719AA587C898}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9B0056B8-D208-457E-A5DF-719AA587C898}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -64,5 +76,7 @@ Global
 		{6D41C01A-384C-4676-BD06-79E468A00DF8} = {93BB5108-7423-4734-A385-B3898F0B6C0F}
 		{94BE3441-F7CE-444A-8144-B78285315894} = {CBB064EF-96C4-4AF7-82D5-835C805C2164}
 		{EBBC2423-0A58-4409-A54B-9DFB00F913BB} = {93BB5108-7423-4734-A385-B3898F0B6C0F}
+		{225741FE-A7D9-4231-9E0C-7D4CCEB394A0} = {23EE16F3-25FE-4081-B32C-54C500069307}
+		{9B0056B8-D208-457E-A5DF-719AA587C898} = {23EE16F3-25FE-4081-B32C-54C500069307}
 	EndGlobalSection
 EndGlobal

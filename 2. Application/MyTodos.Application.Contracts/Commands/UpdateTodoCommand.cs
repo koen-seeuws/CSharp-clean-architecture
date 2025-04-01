@@ -1,5 +1,4 @@
 using MediatR;
-using MyTodos.Application.Contracts.Interfaces.Result;
 
 namespace MyTodos.Application.Contracts.Commands;
 
@@ -8,4 +7,4 @@ public record UpdateTodoCommand(
     string Title,
     string Assignee,
     string? Description
-) : IRequest<Result>;
+) : IRequest<Result.Result>;

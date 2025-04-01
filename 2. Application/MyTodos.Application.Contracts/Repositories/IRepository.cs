@@ -1,6 +1,6 @@
 using System.Linq.Expressions;
 
-namespace MyTodos.Application.Contracts.Interfaces;
+namespace MyTodos.Application.Contracts.Repositories;
 
 public interface IRepository<TModel> where TModel : class
 {
